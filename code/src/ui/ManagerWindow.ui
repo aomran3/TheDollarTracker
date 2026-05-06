@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManagerWindow</class>
+ <widget class="QDialog" name="ManagerWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>318</width>
+    <height>608</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ManagerWindow — The Dollar Tracker</string>
+  </property>
+  <layout class="QVBoxLayout" name="layout">
+   <item>
+    <widget class="QPushButton" name="btnViewEmployees">
+     <property name="text">
+      <string>View Employees</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>16</width>
+       <height>16</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnAddEmp">
+     <property name="text">
+      <string>Add Employee</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnRemoveEmp">
+     <property name="text">
+      <string>Remove Employee</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnAddMgr">
+     <property name="text">
+      <string>Add Manager</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnRemoveMgr">
+     <property name="text">
+      <string>Remove Manager</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnViewSchedule">
+     <property name="text">
+      <string>View Schedule</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnPreviewPayroll">
+     <property name="text">
+      <string>Preview Payroll</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnExportPayroll">
+     <property name="text">
+      <string>Export Payroll</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnAddRole">
+     <property name="text">
+      <string>Add Role</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnRemoveRole">
+     <property name="text">
+      <string>Remove Role</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnListRoles">
+     <property name="text">
+      <string>List Roles</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnAssignRole">
+     <property name="text">
+      <string>Assign Role</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnCreateShift">
+     <property name="text">
+      <string>Create Shift</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnViewLogs">
+     <property name="text">
+      <string>View Logs</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnFilterSchedule">
+     <property name="text">
+      <string>Filter Schedule</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnSignout">
+     <property name="text">
+      <string>Sign Out</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextEdit" name="plain"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

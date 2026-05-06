@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginWindow</class>
+ <widget class="QDialog" name="LoginWindow">
+  <property name="windowTitle"><string>LoginWindow — The Dollar Tracker</string></property>
+  <layout class="QVBoxLayout" name="layout">
+   <item><widget class="QLabel" name="lbl">
+     <property name="text"><string>The Dollar Tracker — Sign In</string></property>
+   </widget></item>
+   <item><widget class="QLineEdit" name="editId">
+     <property name="text"><string/></property>
+   </widget></item>
+   <item><widget class="QPushButton" name="btnOk">
+     <property name="text"><string>Continue</string></property>
+   </widget></item>
+   <item><widget class="QPushButton" name="btnCancel">
+     <property name="text"><string>Cancel</string></property>
+   </widget></item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

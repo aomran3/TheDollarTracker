@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Jobremove</class>
+ <widget class="QDialog" name="Jobremove">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>280</width>
+    <height>274</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>jobremove — The Dollar Tracker</string>
+  </property>
+  <layout class="QVBoxLayout" name="layout">
+   <item>
+    <widget class="QLabel" name="title">
+     <property name="text">
+      <string>Remove Job Role</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboRole"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="deleteBtn">
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="closeBtn_2">
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextEdit" name="area"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="closeBtn">
+     <property name="text">
+      <string>Close</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
